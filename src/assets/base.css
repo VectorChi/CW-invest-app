@@ -1,0 +1,37 @@
+:root {
+  --color-white: #fefefe;
+  --color-black: #1a1a1a;
+  --color-purple: #a49af6;
+  --color-green: #4ab58d;
+  --color-red: #fa6889;
+  --color-orange: #f1a07e;
+  --color-grey: #666666;
+  --color-lightgreen: #f4fbf8;
+  --color-lightred: #fff0f3;
+  --color-lightorange: #fdf1ed;
+  --color-lightpurple: #fafaff;
+  --color-lightgrey: #b3b3b3;
+  --color-lightergrey: #d9d9d9;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+  background: var(--color-background);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: Inter;
+  font-size: 1rem;
+  text-rendering: optimizeLegibility;
+}

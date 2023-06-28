@@ -1,0 +1,135 @@
+@import "./base.css";
+
+#app {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.pry-btn-sml,
+.pry-btn-big,
+.sec-btn-sml {
+  font-size: 0.9rem;
+  border-radius: 0.4rem;
+  font-weight: 500;
+  letter-spacing: -0.21px;
+  cursor: pointer;
+}
+.pry-btn-sml {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 0.8rem 1rem;
+  border: none;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.08);
+  transition: 0.4s;
+}
+.pry-btn-big {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 1rem 1rem;
+  border: none;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.08);
+  transition: 0.4s;
+}
+.pry-btn-big:hover {
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.sec-btn-sml {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  padding: 0.8rem 1.8rem;
+  border: none;
+  outline: 1px solid var(--color-black);
+}
+a {
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.pill {
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+  color: var(--color-grey);
+}
+.pill.con.active {
+  background-color: var(--color-lightgreen);
+  color: var(--color-green);
+  border: 1px solid var(--color-green);
+  border-radius: 2rem;
+}
+.pill.mod.active {
+  background-color: var(--color-lightorange);
+  color: var(--color-orange);
+  border: 1px solid var(--color-orange);
+  border-radius: 2rem;
+}
+.pill.agg.active {
+  background-color: var(--color-lightred);
+  color: var(--color-red);
+  border: 1px solid var(--color-red);
+  border-radius: 2rem;
+}
+
+/* Card List styling */
+.fund-card {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 5rem 2.875rem 2rem;
+  border: 0.1px solid var(--color-lightergrey);
+  border-radius: 0.8rem;
+  box-shadow: 0px 4px 79px 0px rgba(0, 0, 0, 0.05);
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.f-img-name {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 90%;
+}
+.annual-return {
+  display: flex;
+  flex-direction: column;
+}
+.f-img {
+  width: 3rem;
+  height: 3rem;
+}
+.f-name {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 130.023%;
+  letter-spacing: -0.045rem;
+  color: var(--color-black);
+}
+.year {
+  font-size: 0.8rem;
+  color: var(--color-lightgrey);
+}
+.return {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-purple);
+}
+/*
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
